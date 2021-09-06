@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text era</title>
+    <style type="text/css">
+        textarea {
+            background: lawngreen;
+            color: blue;
+            border: tomato;
+            outline: black;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+<textarea name="type your message here" id="sample" cols="30" rows="10"></textarea>
+<br>
+<button onclick="getValue();">get value</button>
+
+<script type="text/javascript">
+    function getValue() {
+        var value =document.getElementById('sample').value;
+        alert(value);
+    }
+</script>
+
+</body>
+</html>

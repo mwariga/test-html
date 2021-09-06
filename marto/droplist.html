@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>drop list</title>
+</head>
+<body>
+<select name="fruits" id="sample">
+    <option value="mango">mango</option>
+    <option value="orange">orange</option>
+    <option value="apple">app;e</option>
+    <option value="banana">banana</option>
+    <option value="grape">grape</option>
+</select>
+<button onclick="getValue();">get value</button>
+<script type="text/javascript">
+    function getValue() {
+        var value =document.getElementById('sample').value;
+        alert(value);
+    }
+</script>
+</body>
+</html>

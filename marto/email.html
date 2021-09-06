@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>email</title>
+</head>
+<body>
+<p>try entering any email address then click the submit button</p>
+<form action="sample-page-handler.html">
+  <input type="email" id="demo" name="email">
+  <input type="submit">
+</form>
+<br>
+<button onclick="getValue()">get value</button>
+
+<script type="text/javascript">
+  function getValue() {
+    alert(document.getElementById('demo').value)
+  }
+</script>
+
+
+</body>
+</html>
